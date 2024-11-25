@@ -1,0 +1,227 @@
+.homePageWrapper{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 100vh;
+}
+.formWrapper{
+  background-color: #fff;
+  padding:10px;
+  padding-top: 0px;
+  border-radius: 10px;
+  width:400px;
+  max-width: 90%;
+
+}
+footer{
+  position: fixed;
+  bottom: 0;
+ color: white;
+}
+
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+.mainLabel{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.homePageLogo{
+  position: relative;
+  top:1rem;
+  padding: 3rem;
+  height: 90px;
+  width: 200px;
+  margin-left: 3rem;
+}
+.inputBox{
+  border-radius: 5px;
+  outline: none;
+  border:none;
+  padding:10px;
+  background-color: #eee;
+  font-size: 16px;
+  font-weight: bold;
+ 
+}
+.btn {
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.joinBtn{
+  background-color:#ffec4e ;
+}
+.joinBtn:hover {
+  background-color: #efe010;
+}
+.createInfo{
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.createNewBtn{
+  color: #191716;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  transition: 0.3s ease-in-out;
+}
+.createNewBtn:hover{
+  color: #746f6f;
+  
+}
+
+/*
+editor page
+*/
+
+.mainWrap{
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+ }
+
+ .aside{
+
+  background-color:#eee;
+  padding: 10px;
+  color: #191716;
+  display: flex;
+  flex-direction: column;
+  
+ }
+
+.asideInner{
+  flex:1;
+  
+}
+.clientList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+.client{
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+.userName{
+  margin-top:10px;
+}
+
+
+ .logo{
+  border-bottom: 1px solid #191716;
+  padding-bottom: 10px;
+ }
+
+ .logoImage{
+  width: 220px;
+  margin-left: -18px;
+ }
+
+ .copyBtn{
+  border: none;
+  outline:none;
+  background-color:#ffec4e ;
+  margin: 0;
+  padding:10px;
+  position: relative;
+  bottom:1rem;
+
+ }
+
+ .leaveBtn{
+  border: none;
+  outline:none;
+  background-color:#ff0000 ;
+  margin: 0;
+  padding:10px;
+ 
+ }
+ .copyBtn:hover{
+  background-color: #efe010;
+ }
+ .leaveBtn:hover{
+  background-color: #c32020;
+ }
+
+ .CodeMirror{
+  min-height: calc(100vh-20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+ }
+
+/* Styling for the OutputWindow container */
+.outputWindow {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* Title for the output section */
+.outputWindow h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Textarea for displaying the output */
+.outputArea {
+  width: 100%;
+  height: calc(100% - 60px); /* Dynamic height adjustment */
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  color: #444;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+  overflow-y: auto;
+  outline: none;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Run button styling */
+.runBtn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.runBtn:hover {
+  background-color: #0056b3;
+}
+
+.runBtn:active {
+  transform: scale(0.98);
+  background-color: #004494;
+}
